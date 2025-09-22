@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos - David Fitness</title>
+</head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+       background: url('https://theironoffice.com/cdn/shop/files/Gym_12.23-19.jpg?v=1701994187&width=3840');
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+
+    .navbar {
+      background: #222;
+      padding: 15px;
+    }
+    .navbar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .navbar li {
+      display: inline-block;
+      margin: 0 20px;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .navbar li a:hover {
+      color: orange;
+    }
+
+    .heading {
+      margin: 30px 0 10px;
+    }
+
+    .slider, .slider1, .slider2 {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .slider img, .slider1 img, .slider2 img {
+      width: 250px;
+      height: 180px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+     </style>
+</head>
+<body>
+    <section id="Photos">
+  <!-- Navbar -->
+    <h1 class="heading">With our professional Trainers</h1>
+<div class="slider">
+    <img src="img1.jpg" class="slide active">
+    <img src="img2.jpeg"  class="slide">
+    <img src="img3.jpg"  class="slide">
+    <img src="img4.webp"  class="slide">
+</div>
+<h1 class="heading1">With best equipments</h1>
+<div class="slider1">
+  <img src="img5.webp" class="slide1 active">
+  <img src="img6.avif" class="slide1">
+  <img src="img7.avif" class="slide1">
+  <img src="img8.jpeg" class="slide1">
+</div>
+<h1 class="heading2">With expert trainers</h1>
+<div class="slider2">
+  <img src="img9.jpg" class="slide2 active">
+  <img src="img10.png" class="slide2">
+  <img src="img11.jpeg" class="slide2">
+  <img src="img12.webp" class="slide2">
+</div>   
+    </section>
+</body>
+</html>
